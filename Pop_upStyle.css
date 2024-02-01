@@ -1,0 +1,81 @@
+/* Overall font styling */
+body{
+    font-family: 'Noto Serif', serif;
+}
+body h1{
+    font-size: 70px;
+    margin: 0px;
+    line-height: 100px;
+}
+body h3{
+  font-size: 45px;
+}
+body p{
+    font-size:20px;
+    margin: 0px;
+    line-height: 30px;
+}
+body h5{
+  font-size: 30px;
+  margin: 0px;
+}
+
+/* pop up form style */
+
+.subform input{
+    padding: 15px;
+    margin: 5px 5px 5px 0px;
+  }
+  .submitBtn{
+    width: 360px;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    margin: 0px 20px 0px 0px;
+    border-radius: 30px;
+    background: #026EBC;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  .submitBtn:hover {
+    background-color:#D1E01F ;
+    padding: 15px;
+    transform-origin: 0 100%;
+    width: 360px;
+    height: 3rem;
+    /* height: inherit; */
+    border-radius: 30px;
+    background: linear-gradient(
+      82.3deg,
+      #79c20c7a 10.8%,
+      #16734391 94.3%
+    );
+    transition: all 0.475s;
+  }
+
+  .bgImg{
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    margin-top: -680px;
+  }
+
+  .subform{
+    width: fit-content;
+    text-align: center;
+    background-color: #000000dc;
+    padding: 200px 100px 20px 100px;
+  }
+  .subform h5{
+    color: #D1E01F;
+    padding: 20px;
+  }
+  .subform .field{
+    width: 300px;
+    padding: 28px;
+    margin: 20px;
+  }
